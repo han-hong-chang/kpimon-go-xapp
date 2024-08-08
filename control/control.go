@@ -700,7 +700,7 @@ func create_db() {
 	url := "http://ricplt-influxdb.ricplt:8086/query?q=create%20database%20kpimon" + fmt.Sprintf("&u=%s&p=%s", influxDBUser, influxDBPassword)
 	_, err := http.Post(url, "", nil)
 	if err != nil {
-		xapp.Logger.Error("Create database failed!")
+		xapp.Logger.Error("Create database failed! error: %v",err)
 	}
 	xapp.Logger.Info("exiting create_db\n")
 }
