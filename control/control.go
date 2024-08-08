@@ -679,8 +679,7 @@ func (c *Control) writeCellMetrics_db(cellMetricsMap *map[string]interface{}, ti
 		AddTag("Viavi_GnbDuId", fmt.Sprint(cellMetric.Viavi_GnbDuId)).
 		AddTag("Viavi_NrCgi", fmt.Sprint(cellMetric.Viavi_NrCgi)).
 		AddTag("Viavi_NrPci", fmt.Sprint(cellMetric.Viavi_NrPci)).
-		AddField("DRB_UEThpDl", cellMetric.
-		_UEThpDl).
+		AddField("DRB_UEThpDl", cellMetric.DRB_UEThpDl).
 		AddField("DRB_UEThpUl", cellMetric.DRB_UEThpUl).
 		AddField("RRU_PrbAvailDl", cellMetric.RRU_PrbAvailDl).
 		AddField("RRU_PrbAvailUl", cellMetric.RRU_PrbAvailUl).

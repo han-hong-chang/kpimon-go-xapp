@@ -71,7 +71,7 @@
     "influxDBAddress": "http://r4-influxdb-influxdb2.ricplt:80",
     "username": "admin",
     "password": "7jQCNdujbSKju7cL32IzOOwAx7rEjEGJ",
-    "token": "m6wj3vISmj7oUg07pd3P4Mng1aJiNdT3",
+    "token": "Y7zuwNFbRMyHWC6oecIntPEUN04aar78",
     "organization": "my-org",
     "bucket": "kpimon"
   }

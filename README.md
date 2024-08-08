@@ -11,7 +11,7 @@ vim kpimon-go/deploy/config.json
     "influxDBAddress": "http://r4-influxdb-influxdb2.ricplt:80",
     "username": "admin",
     "password": "7jQCNdujbSKju7cL32IzOOwAx7rEjEGJ",
-    "token": "Eki592tJqjTB47A3KHBpbFpfIoecPVjd",
+    "token": "Y7zuwNFbRMyHWC6oecIntPEUN04aar78",
     "organization": "my-org",
     "bucket": "kpimon"
   }
