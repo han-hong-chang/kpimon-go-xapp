@@ -395,6 +395,20 @@ type CellMetricsEntry struct {
 	Viavi_GnbDuId  interface{}
 	Viavi_NrCgi    interface{}
 	Viavi_NrPci    interface{}
+	/*
+	DRB_UEThpDl    interface{}
+	DRB_UEThpUl    interface{}
+	RRU_PrbAvailDl interface{}
+	RRU_PrbAvailUl interface{}
+	RRU_PrbTotDl   interface{}
+	RRU_PrbTotUl   interface{}
+	RRU_PrbUsedDl  interface{}
+	RRU_PrbUsedUl  interface{}
+	PEE_AvgPower   interface{}
+	Viavi_QoS_Score interface{}
+	Viavi_GnbDuId  interface{}
+	Viavi_NrCgi    interface{}
+	Viavi_NrPci    interface{}*/
 }
 
 type CellRFType struct {
@@ -409,27 +423,22 @@ type NeighborCellRFType struct {
 }
 
 // VIAVI 1.6.1 simulation UE metrics
+//RIC Test v2.2 ES
 type UeMetricsEntry struct {
-	/*
-		//add
-		Viavi_UE_anomalies interface{}
-		Viavi_UE_Rsrp      interface{}
-		Viavi_UE_Rsrq      interface{}
-		Viavi_UE_RsSinr    interface{}
-		Viavi_Nb1_id       interface{}
-		Viavi_Nb2_id       interface{}
-		Viavi_Nb1_Rsrp     interface{}
-		Viavi_Nb2_Rsrp     interface{}
-		//
-		DRB_UEThpDl    interface{}
-		DRB_UEThpUl    interface{}
-		RRU_PrbUsedDl  interface{}
-		RRU_PrbUsedUl  interface{}
-		Viavi_Cell_id  interface{}
-		Viavi_Slice_id interface{}
-		Viavi_UE_id    interface{}
-	*/
 	Viavi_UE_id        interface{}
+	Viavi_Cell_id      interface{}
+	Viavi_Meas1_id     interface{}
+	Viavi_Meas2_id     interface{}
+	DRB_UEThpDl        interface{}
+	DRB_UEThpUl        interface{}
+	RRU_PrbUsedDl      interface{}
+	RRU_PrbUsedUl      interface{}
+	Viavi_UE_Rsrp      interface{}
+	Viavi_UE_Rsrq      interface{}
+	Viavi_UE_RsSinr    interface{}
+	Viavi_Meas1_Rsrp   interface{}
+	Viavi_Meas2_Rsrp   interface{}
+	/*Viavi_UE_id        interface{}
 	Viavi_Cell_id      interface{}
 	Viavi_Nb1_id       interface{}
 	Viavi_Nb2_id       interface{}
@@ -441,8 +450,7 @@ type UeMetricsEntry struct {
 	Viavi_UE_Rsrq      interface{}
 	Viavi_UE_RsSinr    interface{}
 	Viavi_Nb1_Rsrp     interface{}
-	Viavi_Nb2_Rsrp     interface{}
-	Viavi_UE_anomalies interface{}
+	Viavi_Nb2_Rsrp     interface{}*/
 }
 
 type ViaviMessages struct {
